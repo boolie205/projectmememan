@@ -25,7 +25,7 @@
 		$ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, "https://api.imgflip.com/caption_image");
         curl_setopt($ch, CURLOPT_POST, 1);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, "template_id=".$templateId."&username=Milice&password=mch73h52&text0=".$topText."&text1=".$bottomText);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, "template_id=".$templateId."&username=Milice&password=&text0=".$topText."&text1=".$bottomText);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         $response = curl_exec($ch);
         $rescode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
