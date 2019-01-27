@@ -30,7 +30,7 @@
   
     <div class="ui middle aligned stackable grid container">
        
-      <div class="row">
+      <div class="row" id="whatis">
         <div class="eight wide column">
           <h3 class="ui header">It's probably the most ironic way to send a meme</h3>
           <p>Why send memes to your friends instantly when you can not do that and waste a bunch of time :) 
@@ -39,7 +39,7 @@
           <p>This will piss off your friends off, like, alot. Getting mail is exciting so why not crush them with a meme reminding them they are worthless :)  </p>
         </div>
         <div class="six wide right floated column">
-          <img src="https://media.discordapp.net/attachments/393853515417518083/538853717613740060/qaspscgcddc21.jpg?width=617&height=670" class="ui large bordered rounded image">
+          <img src="https://pics.astrologymemes.com/my-memes-are-ironic-my-depression-is-chronic-31366627.png" class="ui large bordered rounded image">
         </div>
       </div>
       <div class="row">
@@ -53,7 +53,7 @@
 
   <div class="ui vertical stripe quote segment">
     <div class="ui equal width stackable internally celled grid">
-      <div class="center aligned row">
+      <div class="center aligned row" id="internetsay">
         <div class="column">
           <h3>"What a Company"</h3>
           <p>Honestly just the best idea for a start-up since sliced fucking bread. 10/10</p>
@@ -77,12 +77,13 @@
     <div class="ui text container">
     <h3 class="ui header">Meme News </h3>
     <hr>
-      <h3 class="ui header">Blog post bruh</h3>
+      <h3 class="ui header" id="blog">Blog post bruh</h3>
       <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
       <a class="ui large button">Read More</a>
-      <h4 class="ui horizontal header divider">
+      <hr>
+      <!-- <h4 class="ui horizontal header divider">
         <a href="#">Case Studies</a>
-      </h4>
+      </h4> -->
       <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
       <p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
       <a class="ui large button">I'm Still Quite Interested</a>
@@ -119,7 +120,7 @@
     </div>
   </div>
 </div>
-
+<!-- <h1 id="totop"><a href="#top">scroll to top</a> </h1> -->
 </body>
 
 
