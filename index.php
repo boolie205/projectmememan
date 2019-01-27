@@ -1,3 +1,8 @@
+<?php
+	session_start();
+?>
+<!DOCTYPE html>
+<html>
 <head>
 <link rel="stylesheet" type="text/css" href="/styles/Semantic-ui/semantic.min.css">
 <link rel="stylesheet" tyle="text/css" href="/styles/main.css">
@@ -123,13 +128,7 @@
   </div>
 </div>
 <!-- <h1 id="totop"><a href="#top">scroll to top</a> </h1> -->
-</body>
-
-
-
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="/styles/Semantic-ui/semantic.min.js"></script>
+</body>
+</html>
