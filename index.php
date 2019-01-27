@@ -1,6 +1,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="/styles/Semantic-ui/semantic.min.css">
 <link rel="stylesheet" tyle="text/css" href="/styles/main.css">
+<title>meme magic </title>
 </head>
 
 

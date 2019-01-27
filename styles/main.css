@@ -108,3 +108,13 @@ html {
 bottom: 10px;
 right: 10px;
 }
+
+#welcomeText{
+    display:none;
+    
+    position: absolute;
+        top: 50%; margin-top:-100px;
+        left: 50%; margin-left:-500px;
+    margin-right:25px;
+        
+}
