@@ -1,22 +1,15 @@
-<div class="ui secondary  menu">
-  <a class="active item">
-    Home
-  </a>
-  <a class="item">
-    Messages
-  </a>
-  <a class="item">
-    Friends
-  </a>
-  <div class="right menu">
-    <div class="item">
-      <div class="ui icon input">
-        <input type="text" placeholder="Search...">
-        <i class="search link icon"></i>
+    <div class="ui container">
+      <div class="ui large secondary inverted pointing menu" id="nananananavman">
+        <a class="toc item">
+          <i class="sidebar icon"></i>
+        </a>
+         <a class="active item">Home</a>
+        <a class="item" >What is this?</a>
+        <a class="item" >What does the internet say?</a>
+        <a class="item" >Meme Blog</a> 
+        <div class="right item">
+          <a class="ui inverted violet button" >Log in</a>
+          <a class="ui inverted blue button" >Sign Up</a>
+        </div>
       </div>
-    </div>
-    <a class="ui item">
-      Logout
-    </a>
-  </div>
-</div>
+    </div> 
