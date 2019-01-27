@@ -8,7 +8,7 @@
         <a class="item" href="#internetsay">What does the internet say?</a>
         <a class="item" href="#blog">Meme Blog</a> 
         <div class="right item">
-          <a class="ui inverted violet button" >Log in</a>
+          <a class="ui inverted violet button" onclick="$('#loginModal').modal('show'); return false;">Log in</a>
           <a class="ui inverted blue button" >Sign Up</a>
         </div>
       </div>

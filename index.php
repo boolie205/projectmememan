@@ -13,6 +13,7 @@
 <div class="pusher">
    <div class="ui inverted vertical masthead center aligned segment" style='background-image: url("https://wallup.net/wp-content/uploads/2016/01/195796-snow-night-animals-doge-memes.jpg");'>
 <?php include './php-parts/nav.php';?>
+<?php include './php-parts/modal.php';?>
     <div class="ui text container">
       <h1 class="ui inverted header highlight">
       Don't let your memes be dreams
