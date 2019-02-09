@@ -1,12 +1,6 @@
-<?php
-	session_start();
-?>
-<!DOCTYPE html>
-<html>
 <head>
 <link rel="stylesheet" type="text/css" href="/styles/Semantic-ui/semantic.min.css">
 <link rel="stylesheet" tyle="text/css" href="/styles/main.css">
-<title>meme magic </title>
 </head>
 
 
@@ -19,7 +13,6 @@
 <div class="pusher">
    <div class="ui inverted vertical masthead center aligned segment" style='background-image: url("https://wallup.net/wp-content/uploads/2016/01/195796-snow-night-animals-doge-memes.jpg");'>
 <?php include './php-parts/nav.php';?>
-<?php include './php-parts/modal.php';?>
     <div class="ui text container">
       <h1 class="ui inverted header highlight">
       Don't let your memes be dreams
@@ -128,7 +121,13 @@
   </div>
 </div>
 <!-- <h1 id="totop"><a href="#top">scroll to top</a> </h1> -->
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="/styles/Semantic-ui/semantic.min.js"></script>
 </body>
-</html>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+<script src="/styles/Semantic-ui/semantic.min.js"></script>
